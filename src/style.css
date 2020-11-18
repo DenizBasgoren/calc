@@ -1,0 +1,37 @@
+* {
+	font-family: Arial;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.flexcont {
+	display: flex;
+}
+
+.eq {
+	margin-bottom: 10px;
+}
+
+.field {
+	padding: 5px;
+}
+
+.field > p {
+	padding-left: 5px;
+}
+
+.field > p:nth-child(1) {
+	font-weight: bold;
+}
+
+.field > p:nth-child(3) {
+	font-weight: bold;
+	color: green;
+}
+
+.field:nth-child(even) {
+	background-color: #f0f0f0;
+}
